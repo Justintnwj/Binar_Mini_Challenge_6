@@ -1,96 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!-- custom css file  -->
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- custom css file  -->
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body style="background-color: white;">
-  <nav class="justify-content-end navbar navbar-expand navbar-light bg-light gap-2 ps-4 pe-4">
-    <div class="container">
-      <a class="d-flex navbar-brand" href="#" style="font-family: Arial, Helvetica, sans-serif; font-size: 16px;">
-        <img src="https://assets-global.website-files.com/5e70b9a791ceb781b605048c/62c572795b1ce33784125833_minimal-logo-binar-academy.svg" alt="Bootstrap" width="30" height="24">
-        <p class="ms-2 m-0">
-          Binar Academy X SYRNGY BCA
-        </p>
-      </a>
-      
-    </div>
-    <ul class="nav navbar-nav gap-4">
-      <li class="nav-item active">
-        <a class="nav-link active" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Product</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About Us</a>
-      </li>
-    </ul>
-  </nav>
+    <nav class="navbar navbar-expand navbar-light bg-light gap-2 ps-4">
+        <ul class="nav navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+            </li>
+        </ul>
+    </nav>
 
-    <!-- Carousel Section by Ika-->
-    <section id="feature">
-          <div id="carouselExample" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <img src="https://res.cloudinary.com/dbtjpa2tv/image/upload/v1711470104/Excavator_CGI_1_fq88vr.jpg" class="d-block w-100" >
-                <div class="carousel-caption d-none d-md-block">
-                  <h3>Excavate Your Success</h3>
-                  <p>Dig Deep, Reach High</p>
-                  <button type="button" class="btn-carousel">See More</button>
-                </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="https://res.cloudinary.com/dbtjpa2tv/image/upload/v1711470104/Master_the_Art_of_Construction_with_the_Ultimate_Simulator_Game_Build_Your_Dream_World_qesyt9.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h3>Unearth Efficiency</h3>
-                  <p> Excavate with Precision, Build with Confidence</p>
-                  <button type="button" class="btn-carousel">See More</button>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://res.cloudinary.com/dbtjpa2tv/image/upload/v1711470104/Master_the_Art_of_Construction_with_the_Ultimate_Simulator_Game_Build_Your_Dream_World_qesyt9.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none  d-md-block">
-                  <h3>Excavate Tomorrow</h3>
-                  <p>Powering Progress, Shaping the Future</p>
-                  <button type="button" class="btn-carousel">See More</button>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://res.cloudinary.com/dbtjpa2tv/image/upload/v1711469855/Excavator_CGI_n05w6x.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h3>Digging Innovation</h3>
-                  <p>Excavate Smarter, Construct Stronger</p>
-                  <button type="button" class="btn-carousel">See More</button>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+  <!-- Carousel Section by Ika-->
+  <section id="feature">
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="https://res.cloudinary.com/dbtjpa2tv/image/upload/v1711470104/Excavator_CGI_1_fq88vr.jpg"
+            class="d-block w-100">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Excavate Your Success</h3>
+            <p>Dig Deep, Reach High</p>
+            <button type="button" class="btn-carousel">See More</button>
           </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="https://res.cloudinary.com/dbtjpa2tv/image/upload/v1711470104/Master_the_Art_of_Construction_with_the_Ultimate_Simulator_Game_Build_Your_Dream_World_qesyt9.jpg"
+            class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Unearth Efficiency</h3>
+            <p> Excavate with Precision, Build with Confidence</p>
+            <button type="button" class="btn-carousel">See More</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://res.cloudinary.com/dbtjpa2tv/image/upload/v1711470104/Master_the_Art_of_Construction_with_the_Ultimate_Simulator_Game_Build_Your_Dream_World_qesyt9.jpg"
+            class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none  d-md-block">
+            <h3>Excavate Tomorrow</h3>
+            <p>Powering Progress, Shaping the Future</p>
+            <button type="button" class="btn-carousel">See More</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://res.cloudinary.com/dbtjpa2tv/image/upload/v1711469855/Excavator_CGI_n05w6x.jpg"
+            class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Digging Innovation</h3>
+            <p>Excavate Smarter, Construct Stronger</p>
+            <button type="button" class="btn-carousel">See More</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev " type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </section>
- 
+
   <!-- Card Section by Just -->
   <div class="card" style="width: 18rem;">
     <img src="https://s7d2.scene7.com/is/image/Caterpillar/CM20200902-133f5-390aa" class="card-img-top" alt="...">
@@ -101,7 +100,7 @@
       <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>
-  
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
