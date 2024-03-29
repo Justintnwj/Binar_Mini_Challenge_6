@@ -32,3 +32,20 @@
 .btn-carousel:hover{
     background-color: #FFA41B;
 }
+
+.card-section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-family: arial;
+    font-size: 20px;
+}
+
+.card-text {
+    font-family: arial;
+    font-size: 16px;
+}
